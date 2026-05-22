@@ -24,7 +24,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install WARP
-        uses: fscarmen/warp-on-actions@latest
+        uses: fscarmen/warp-on-actions@v1.4
 
       - name: Install dependencies
         run: |
